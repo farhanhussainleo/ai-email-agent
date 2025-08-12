@@ -1,0 +1,4 @@
+# Do NOT include azure-functions-worker (managed by Azure Functions)
+
+azure-functions
+azure-communication-email
