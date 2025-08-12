@@ -6,6 +6,12 @@ The function accepts JSON in the request body, supports **recipient lists** or a
 > **Note:** This repo is intentionally minimal. You’ll scaffold your own Azure Functions project in VS Code, then drop this `function_app.py` in. No `.vscode/` or `host.json` files are included here to avoid config drift.
 
 ---
+## Video Tutorial
+
+This repo is just the Function part of the AI agent.
+For the end-to-end guide (Copilot Studio agent, HTTP action, and deployment), watch the video:
+
+---
 
 ## What it does
 
