@@ -1,4 +1,4 @@
-# Building an AI Agent — Azure Functions Email Sender (ACS) Module
+# Building an AI Agent — Azure Functions Email Sender Module
 
 This project is one critical piece of a much larger build: creating an AI Agent that can take real-world actions.
 In the full workflow, the AI agent — built in Copilot Studio — generates the content, gathers context, and then calls this Function App to send emails via Azure Communication Services (ACS).
