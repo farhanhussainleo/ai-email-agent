@@ -1,9 +1,13 @@
-# Azure Functions Email Sender — Copilot Studio Demo
+# Building an AI Agent — Azure Functions Email Sender (ACS) Module
 
-This repo is just the Function part of the AI agent building process.
-For the end-to-end guide (Copilot Studio agent, HTTP action, and deployment), watch the video:
+This project is one critical piece of a much larger build: creating an AI Agent that can take real-world actions.
+In the full workflow, the AI agent — built in Copilot Studio — generates the content, gathers context, and then calls this Function App to send emails via Azure Communication Services (ACS).
+Think of this as the “muscle” that executes the AI agent’s decisions.
+If you want to see how it all comes together, including setting up the agent, connecting it to this function, and deploying it end-to-end, watch the full tutorial:
 
-A minimal Azure Functions (Python) HTTP endpoint that sends emails via **Azure Communication Services**.
+---
+
+This is the implementation of Azure Functions (Python) HTTP endpoint that sends emails via **Azure Communication Services**.
 The function accepts JSON in the request body, supports **recipient lists** or a **CSV string**, and allows simple **template variables** in the subject/body.
 
 > **Note:** This repo is intentionally minimal. You’ll scaffold your own Azure Functions project in VS Code, then drop this `function_app.py` in. No `.vscode/` or `host.json` files are included here to avoid config drift.
