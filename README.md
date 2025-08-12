@@ -1,15 +1,12 @@
 # Azure Functions Email Sender — Copilot Studio Demo
 
+This repo is just the Function part of the AI agent building process.
+For the end-to-end guide (Copilot Studio agent, HTTP action, and deployment), watch the video:
+
 A minimal Azure Functions (Python) HTTP endpoint that sends emails via **Azure Communication Services**.
 The function accepts JSON in the request body, supports **recipient lists** or a **CSV string**, and allows simple **template variables** in the subject/body.
 
 > **Note:** This repo is intentionally minimal. You’ll scaffold your own Azure Functions project in VS Code, then drop this `function_app.py` in. No `.vscode/` or `host.json` files are included here to avoid config drift.
-
----
-## Video Tutorial
-
-This repo is just the Function part of the AI agent.
-For the end-to-end guide (Copilot Studio agent, HTTP action, and deployment), watch the video:
 
 ---
 
