@@ -109,8 +109,17 @@ Content-Type: application/json
   "body": "Hi there!"
 }
 ```
+### B) Recipients as a comma-separated string
 
-### B) CSV string (must include an `email` header)
+```json
+{
+  "recipients": "alice@example.com,bob@example.com",
+  "subject": "Hello",
+  "body": "Hi there!"
+}
+```
+
+### C) CSV string (must include an `email` header)
 
 ```json
 {
@@ -120,7 +129,7 @@ Content-Type: application/json
 }
 ```
 
-### C) With template variables
+### D) With template variables
 
 ```json
 {
